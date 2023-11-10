@@ -1,9 +1,12 @@
 const SITE = require('./src/config.js').SITE;
 
-/** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
+const withPWA = require('@ducanh2912/next-pwa').default({
+  dest: 'public'
+});
 
+/** @type {import('next').NextConfig} */
+module.exports = withPWA({
+  reactStrictMode: true,
   trailingSlash: SITE.trailingSlash,
   basePath: SITE.basePathname !== '/' ? SITE.basePathname : '',
 
@@ -12,16 +15,17 @@ module.exports = {
   poweredByHeader: false,
 
   images: {
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: 'images.unsplash.com'
       },
       {
         protocol: 'https',
-        hostname: 'source.unsplash.com',
-      },
-    ],
-  },
+        hostname: 'source.unsplash.com'
+      }
+    ]
+  }
   // experimental: { appDir: true },
-};
+});

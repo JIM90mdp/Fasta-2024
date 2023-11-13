@@ -25,8 +25,15 @@ const Pricing = ({ header, prices }: PricingProps) => (
                     {title}
                   </li>
                   <li className="mt-5 mb-2.5 flex items-center justify-center text-center font-semibold">
-                    <span className="text-5xl">$</span>
-                    <span className="text-6xl">{value}</span>
+                    {typeof value === "number" ? (
+                      <>
+                        <span className="text-5xl">$</span>
+                        <span className="text-6xl">{value}</span>
+                      </>)
+                      : (
+                        <span className="text-4xl">{value}</span>
+                      )}
+
                   </li>
                   <li className="mb-7 text-center text-base font-medium capitalize leading-6 text-gray-600 dark:text-slate-400">
                     {period}

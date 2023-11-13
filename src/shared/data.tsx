@@ -1016,7 +1016,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Enero',
-      value: 58500,
+      // value: 58500,
+      value: "Consultar",
       period: 'por mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1028,7 +1029,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Enero',
-      value: 49500,
+      // value: 49500,
+      value: "Consultar",
       period: 'por mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1040,7 +1042,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Enero',
-      value: 49500,
+      value: "Consultar",
+      // value: 49500,
       period: 'por mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1051,7 +1054,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Enero',
-      value: 43000,
+      // value: 43000,
+      value: "Consultar",
       period: 'por mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1064,7 +1068,8 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Febrero',
-      value: 56500,
+      // value: 56500,
+      value: "Consultar",
       period: 'por mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1076,7 +1081,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Febrero',
-      value: 47500,
+      // value: 47500,
+      value: "Consultar",
       period: 'por mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1088,7 +1094,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Febrero',
-      value: 47500,
+      // value: 47500,
+      value: "Consultar",
       period: 'por mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1099,7 +1106,8 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Febrero',
-      value: 41000,
+      // value: 41000,
+      value: "Consultar",
       period: 'por mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
@@ -1162,21 +1170,24 @@ export const comparisonData: ComparisonProps = {
           title: true,
         },
         {
-          title: '$58500',
+          // title: '$58500',
+          title: "Consultar",
         },
         {
-          title: "$49500",
+          // title: "$49500",
+          title: "Consultar",
         },
         {
-          title: "$49500",
+          // title: "$49500",
+          title: "Consultar",
         },
         {
-          title: "$43000",
+          title: "Consultar",
         },
 
 
         {
-          title: "$1800",
+          title: "Consultar",
         },
         {
           title: true,
@@ -1201,20 +1212,20 @@ export const comparisonData: ComparisonProps = {
           title: true,
         },
         {
-          title: '$56500',
+          title: "Consultar",
         },
         {
-          title: "$47500",
+          title: "Consultar",
         },
         {
-          title: "$47500",
+          title: "Consultar",
         },
         {
-          title: "$41000",
+          title: "Consultar",
         },
 
         {
-          title: "$1800",
+          title: "Consultar",
         },
         {
           title: true,

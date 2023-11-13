@@ -117,7 +117,7 @@ interface Link {
 
 interface Price {
   title: string;
-  value: number;
+  value: number | string;
   period?: string;
   texts?: Array<string>;
   callToAction?: CallToAction;

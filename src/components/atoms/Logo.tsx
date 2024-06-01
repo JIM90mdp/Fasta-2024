@@ -7,7 +7,7 @@ const Logo = () => (
       width={500}
       height={500}
       className="w-12 h-10"
-      alt="Logo CV"
+      alt="Logo CV1"
        />
   </span>
 );

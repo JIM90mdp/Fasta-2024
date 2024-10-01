@@ -491,7 +491,7 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        10º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
+        11º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
       </>
     ),
     subtitle:

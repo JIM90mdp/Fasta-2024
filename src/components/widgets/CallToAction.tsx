@@ -1,4 +1,4 @@
-import { CallToActionProps, CallToAction } from '~/shared/types';
+import type { CallToActionProps, CallToAction } from '~/shared/types';
 import CTA from '../common/CTA';
 
 const CallToAction = (props: { data: CallToActionProps }) => {

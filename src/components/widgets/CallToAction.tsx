@@ -6,10 +6,11 @@ const CallToAction = (props: { data: CallToActionProps }) => {
   const { text, href } = callToAction as CallToAction;
 
   return (
+
     <section className="bg-primary-50 dark:bg-slate-800" id="callToActionOne">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="pt-4 pb-12 md:pb-20 md:pt-12">
-          <div className="card mx-auto max-w-3xl p-6 text-center">
+          <div className="card mx-auto max-w-3xl p-5 text-center">
             {title && (
               <h2 className="leading-tighter font-heading mb-4 text-4xl font-bold tracking-tighter md:text-4xl">
                 {title}

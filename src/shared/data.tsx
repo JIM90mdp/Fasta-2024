@@ -110,7 +110,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Inscripciones',
-      href: 'https://forms.gle/z5eAABa18AwarTGP7',
+      href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       targetBlank: true,
       btnType: 'secondary',
     },
@@ -146,7 +146,7 @@ export const heroData: HeroProps = {
         <span className="font-semibold ">
           Colonia de verano
         </span>
-        <em className="md:block"> ¡10 años de experiencia brindando diversión garantizada!</em>
+        <em className="md:block"> ¡11 años de experiencia brindando diversión garantizada!</em>
       </span>
       <em className="block">
         !Sé parte de nuestra familia!
@@ -165,7 +165,7 @@ export const heroData: HeroProps = {
   // },
   // callToAction2: {
   //   text: 'Inscripciones - Matrícula',
-  //   href: 'https://forms.gle/z5eAABa18AwarTGP7',
+  //   href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
   // },
   image: {
     src: cameraBackImg,
@@ -197,7 +197,7 @@ export const hero2Data: HeroProps = {
     </>,
   // callToAction: {
   //   text: 'Inscripciones',
-  //   href: 'https://forms.gle/z5eAABa18AwarTGP7',
+  //   href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
   //   targetBlank: true,
   //   btnType: 'primary',
   // },
@@ -464,7 +464,7 @@ export const callToActionData: CallToActionProps = {
     {
       title: 'Inscripciones',
       description: 'Si leíste la página, y ya has evacuado todas tus dudas, realizá la inscripción y pagá tu matrícula',
-      href: 'https://forms.gle/z5eAABa18AwarTGP7',
+      href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
     },
     // {
     //   title: 'Mas información',
@@ -486,7 +486,7 @@ export const callToActionData2: CallToActionProps = {
   },
 };
 
-// Feature data
+// Feature data 
 export const featuresData: FeaturesProps = {
   header: {
     title: (
@@ -972,7 +972,7 @@ export const pricingData: PricingProps = {
   prices: [
     {
       title: 'Matricula',
-      value: 6000,
+      value: 14000,
       period: 'Pago unico',
       texts: [
         'Obligatorio para inscribirse',
@@ -1002,7 +1002,7 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Comedor',
-      value: 1800,
+      value: 5500,
       period: 'Precio por día',
       texts: [
         'Menu variado y saludable',
@@ -1022,7 +1022,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
@@ -1035,7 +1035,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
@@ -1048,7 +1048,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
     },
@@ -1060,7 +1060,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
     },
@@ -1074,7 +1074,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
@@ -1087,7 +1087,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
       ribbonTitle: 'Popular',
@@ -1100,7 +1100,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
     },
@@ -1112,7 +1112,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
     },
@@ -1198,7 +1198,7 @@ export const comparisonData: ComparisonProps = {
       ],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
         btnType: 'primary',
       },
     },
@@ -1235,7 +1235,7 @@ export const comparisonData: ComparisonProps = {
       ],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/z5eAABa18AwarTGP7',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
         btnType: 'primary',
       },
     },

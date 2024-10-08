@@ -258,7 +258,7 @@ export const faqsData: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 18 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $6000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
 };
@@ -294,7 +294,7 @@ export const faqsData2: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 18 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $6000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
 };
@@ -330,7 +330,7 @@ export const faqs3Data: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 18 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $6000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
   callToAction: {
@@ -379,7 +379,7 @@ export const faqs4Data: FAQsProps = {
         },
         {
           title: '¿Cuándo es la inscripción y cómo funciona?',
-          description: 'La inscripción comienza el miércoles 18 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $6000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+          description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
         },
       ],
     },
@@ -403,7 +403,7 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: ' ¿Cómo funciona la inscripción a la colonia?',
-          description: `La inscripción comienza el miércoles 18 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $6000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
+          description: `La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
         },
         {
           title: ' ¿Cómo se dividen los grupos de niños?',
@@ -966,7 +966,7 @@ export const pricingData: PricingProps = {
   header: {
     title: 'Precios e inscripciones',
     subtitle:
-      'Completá el formulario haciendo click en el botón "Inscripciones", pagá la matrícula a la mutual y elegí la modalidad que mejor se adapte a tus necesidades. ¡Consultá descuentos para hermanos! - Los precios se pueden actualizar según el contexto global del país.',
+      'Completá el formulario haciendo click en el botón "Inscripciones", pagá la matrícula a la mutual y elegí la modalidad que mejor se adapte a tus necesidades. ¡Consultá descuentos para hermanos!',
     highlight: 'Precios',
   },
   prices: [
@@ -1057,7 +1057,7 @@ export const pricingData: PricingProps = {
       value: 170000,
       // value: 49500,
       period: 'Por Mes',
-      texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
@@ -1135,9 +1135,9 @@ export const pricingData: PricingProps = {
 // Comparison data  FALTA DATA PRECIOS
 export const comparisonData: ComparisonProps = {
   header: {
-    title: "Compara los planes",
+    title: "Compará los planes",
     subtitle:
-      'Los precios se pueden actualizar según el contexto global del país.',
+      'Elegí el plan que mejor se adapte a tu situación familiar',
     // highlight: 'Comparison',
   },
   columns: [
@@ -1176,30 +1176,30 @@ export const comparisonData: ComparisonProps = {
       title: 'Enero',
       items: [
         {
-          title: "$6000",
+          title: "$14000",
         },
         {
           title: true,
         },
         {
           // title: '$58500',
-          title: "Consultar",
+          title: "$215000",
         },
         {
           // title: "$49500",
-          title: "Consultar",
+          title: "$19000",
         },
         {
           // title: "$49500",
-          title: "Consultar",
+          title: "$195000",
         },
         {
-          title: "Consultar",
+          title: "$170000",
         },
 
 
         {
-          title: "Consultar",
+          title: "$5500",
         },
         {
           title: true,
@@ -1218,26 +1218,29 @@ export const comparisonData: ComparisonProps = {
       title: 'Febrero',
       items: [
         {
-          title: "$6000",
-        },
-        {
-          title: true,
-        },
-        {
-          title: "Consultar",
-        },
-        {
-          title: "Consultar",
-        },
-        {
-          title: "Consultar",
-        },
-        {
-          title: "Consultar",
-        },
+            title: "$14000",
+          },
+          {
+            title: true,
+          },
+          {
+            // title: '$58500',
+            title: "$215000",
+          },
+          {
+            // title: "$49500",
+            title: "$19000",
+          },
+          {
+            // title: "$49500",
+            title: "$195000",
+          },
+          {
+            title: "$170000",
+          },
 
         {
-          title: "Consultar",
+          title: "$5500",
         },
         {
           title: true,

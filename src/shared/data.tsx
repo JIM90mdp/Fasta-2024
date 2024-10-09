@@ -63,6 +63,7 @@ import gasImg from '~/assets/images/gas.jpg';
 import rondaImg from '~/assets/images/ronda.webp';
 // import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import fastaLogo from '~/assets/images/fasta.svg';
+import complejoLogo from '~/assets/images/complejo1.1svg.png';
 // import reactLogo from '~/assets/images/react-logo.png';
 import dmaLogo from '~/assets/images/dma.svg';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -217,6 +218,11 @@ export const socialProofData: SocialProofProps = {
     {
       link: 'https://sanvicentemdp.redfasta.edu.ar/',
       src: fastaLogo,
+      alt: 'Fasta Logo',
+    },
+    {
+      link: 'https://maps.app.goo.gl/iPXNe692Q5u8sQpe8',
+      src: complejoLogo,
       alt: 'Fasta Logo',
     },
     {
@@ -520,14 +526,14 @@ export const featuresData: FeaturesProps = {
       },
     },
     {
-      title: 'Nuestro predio',
+      title: 'Predio SuteryH',
       description:
         'Tiene una dimensión de 7 hectáreas, cuenta con 4 piletas, espacios cubiertos, canchas de fútbol, espacios verdes con una hermosa arboleda para cuidar a los chicos del sol. El nombre de esta maravilla es el predio del sindicato de SUTERYH',
       icon: IconActivityHeartbeat,
-      // link: {
-      //   label: 'Mas información',
-      //   href: '/',
-      // },
+      link: {
+        label: 'GoogleMap - Villa Recreativa SuteryH',
+        href: 'https://maps.app.goo.gl/iPXNe692Q5u8sQpe8',
+      },
     },
     {
       title: 'Grupos por edades',
@@ -615,7 +621,7 @@ export const featuresData3: FeaturesProps = {
       icon: IconBoxModel,
     },
     {
-      title: 'Nuestro predio',
+      title: 'Predio SuteryH',
       description:
         'Tiene una dimensión de 7 hectáreas, cuenta con 4 piletas, espacios cubiertos, canchas de fútbol, espacios verdes con una hermosa arboleda para cuidar a los chicos del sol. El nombre de esta maravilla es el predio del sindicato de SUTERYH',
       icon: IconSunset2,
@@ -995,7 +1001,7 @@ export const pricingData: PricingProps = {
         'Llegada: Gascón 3145',
       ],
       callToAction: {
-        text: 'Google Map',
+        text: 'Fasta - Ubicación',
         href: 'https://maps.app.goo.gl/i9WTR5VUBy9YnFebA',
       },
       hasRibbon: true,

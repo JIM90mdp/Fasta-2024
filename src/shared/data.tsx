@@ -263,6 +263,10 @@ export const faqsData: FAQsProps = {
       description: 'Las actividades continúan según lo planeado, incluso en días de lluvia. Las actividades se mantienen sin alteraciones debido al clima.',
     },
     {
+      title: '¿Hay algún requisito?',
+      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+    },
+    {
       title: '¿Cuándo es la inscripción y cómo funciona?',
       description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
@@ -299,6 +303,10 @@ export const faqsData2: FAQsProps = {
       description: 'Las actividades continúan según lo planeado, incluso en días de lluvia. Las actividades se mantienen sin alteraciones debido al clima.',
     },
     {
+      title: '¿Hay algún requisito?',
+      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+    },
+    {
       title: '¿Cuándo es la inscripción y cómo funciona?',
       description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
@@ -333,6 +341,10 @@ export const faqs3Data: FAQsProps = {
     {
       title: '¿Qué sucede en caso de lluvia?',
       description: 'Las actividades continúan según lo planeado, incluso en días de lluvia. Las actividades se mantienen sin alteraciones debido al clima.',
+    },
+    {
+      title: '¿Hay algún requisito?',
+      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
@@ -383,6 +395,10 @@ export const faqs4Data: FAQsProps = {
           title: '¿Qué sucede en caso de lluvia?',
           description: 'Las actividades continúan según lo planeado, incluso en días de lluvia. Las actividades se mantienen sin alteraciones debido al clima.',
         },
+        {
+            title: '¿Hay algún requisito?',
+            description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+          },
         {
           title: '¿Cuándo es la inscripción y cómo funciona?',
           description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
@@ -538,7 +554,7 @@ export const featuresData: FeaturesProps = {
     {
       title: 'Grupos por edades',
       description:
-        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos.',
+        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.', 
       icon: IconMoodKid,
       link: {
         label: 'Mas información',
@@ -630,7 +646,7 @@ export const featuresData3: FeaturesProps = {
     {
       title: 'Grupos por edades',
       description:
-        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos.',
+        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.', 
       icon: IconListCheck,
     },
     {

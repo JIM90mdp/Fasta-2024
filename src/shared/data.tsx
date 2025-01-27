@@ -58,9 +58,9 @@ import pablo from '~/assets/images/pablo.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpeg';
 import heroImg from '~/assets/images/hero.jpg';
-import hero2Img from '~/assets/images/hero2.jpg';
+import hero2Img from '~/assets/images/runing.jpeg';
 import gasImg from '~/assets/images/gas.jpg';
-import rondaImg from '~/assets/images/ronda.webp';
+import rondaImg from '~/assets/images/bajo-el-arbol.jpeg';
 // import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import fastaLogo from '~/assets/images/fasta.svg';
 import complejoLogo from '~/assets/images/complejo1.1svg.png';
@@ -1091,7 +1091,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Febrero',
-      value: 218000,
+      value: 205000,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1104,7 +1104,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Febrero',
-      value: 193000,
+      value: 180000,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1296,10 +1296,10 @@ export const comparisonData: ComparisonProps = {
           },
           {
             // title: "$49500",
-            title: "$218000",
+            title: "$205000",
           },
           {
-            title: "$193000",
+            title: "$180000",
           },
 
         {

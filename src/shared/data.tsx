@@ -56,7 +56,7 @@ import evelyn from '~/assets/images/Evelyn.png';
 import profe from '~/assets/images/profe.png';
 import pablo from '~/assets/images/pablo.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import cameraBackImg from '~/assets/images/camera-back.jpeg';
 import heroImg from '~/assets/images/hero.jpg';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
@@ -879,58 +879,58 @@ export const teamData: TeamProps = {
       //   },
       // ],
     },
-    {
-      name: 'Pablo Facundo Meléndez',
-      cel: "",
-      occupation: 'Profesor',
-      image: {
-        src: profe,
-        alt: 'Pablo Facundo Meléndez',
-      },
-      // items: [
-      //   // {
-      //   //   title: 'Know more on Twitter',
-      //   //   icon: IconBrandWhatsapp,
-      //   //   href: '#',
-      //   // },
-      //   {
-      //     title: 'Know more on Linkedin',
-      //     icon: IconBrandInstagram,
-      //     href: '#',
-      //   },
-      //   {
-      //     title: 'Contact by email',
-      //     icon: IconMail,
-      //     href: '#',
-      //   },
-      // ],
-    },
-    {
-      name: 'Evelyn Racedo',
-      cel: "",
-      occupation: 'Profesora',
-      image: {
-        src: evelyn,
-        alt: 'Evelyn Racedo',
-      },
-      // items: [
-      //   // {
-      //   //   title: 'Know more on Twitter',
-      //   //   icon: IconBrandWhatsapp,
-      //   //   href: '#',
-      //   // },
-      //   {
-      //     title: 'Know more on Linkedin',
-      //     icon: IconBrandInstagram,
-      //     href: '#',
-      //   },
-      //   {
-      //     title: 'Contact by email',
-      //     icon: IconMail,
-      //     href: '#',
-      //   },
-      // ],
-    },
+    // {
+    //   name: 'Pablo Facundo Meléndez',
+    //   cel: "",
+    //   occupation: 'Profesor',
+    //   image: {
+    //     src: profe,
+    //     alt: 'Pablo Facundo Meléndez',
+    //   },
+    //   // items: [
+    //   //   // {
+    //   //   //   title: 'Know more on Twitter',
+    //   //   //   icon: IconBrandWhatsapp,
+    //   //   //   href: '#',
+    //   //   // },
+    //   //   {
+    //   //     title: 'Know more on Linkedin',
+    //   //     icon: IconBrandInstagram,
+    //   //     href: '#',
+    //   //   },
+    //   //   {
+    //   //     title: 'Contact by email',
+    //   //     icon: IconMail,
+    //   //     href: '#',
+    //   //   },
+    //   // ],
+    // },
+    // {
+    //   name: 'Evelyn Racedo',
+    //   cel: "",
+    //   occupation: 'Profesora',
+    //   image: {
+    //     src: evelyn,
+    //     alt: 'Evelyn Racedo',
+    //   },
+    //   // items: [
+    //   //   // {
+    //   //   //   title: 'Know more on Twitter',
+    //   //   //   icon: IconBrandWhatsapp,
+    //   //   //   href: '#',
+    //   //   // },
+    //   //   {
+    //   //     title: 'Know more on Linkedin',
+    //   //     icon: IconBrandInstagram,
+    //   //     href: '#',
+    //   //   },
+    //   //   {
+    //   //     title: 'Contact by email',
+    //   //     icon: IconMail,
+    //   //     href: '#',
+    //   //   },
+    //   // ],
+    // },
   ],
 };
 
@@ -1037,9 +1037,9 @@ export const pricingData: PricingProps = {
       hasRibbon: true,
     },
     {
-      title: '02/01 al 27/02',
+      title: 'Enero',
       // value: 58500,
-      value: 215000,
+      value: 219000,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1050,9 +1050,9 @@ export const pricingData: PricingProps = {
     //   ribbonTitle: 'Popular',
     },
     {
-      title: '02/01 al 27/02',
-      // value: 49500,
-      value: 190000,
+      title: 'Enero',
+      // value: 58500,
+      value: 194000,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1063,8 +1063,35 @@ export const pricingData: PricingProps = {
     //   ribbonTitle: 'Popular',
     },
     {
-      title: '02/01 al 27/02',
-      value: 195000,
+      title: 'Febrero',
+      // value: 58500,
+      value: 225000,
+      period: 'Por Mes',
+      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      callToAction: {
+        text: 'Inscripciones',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+      },
+      hasRibbon: true,
+    //   ribbonTitle: 'Popular',
+    },
+    {
+      title: 'Febrero',
+      // value: 58500,
+      value: 200000,
+      period: 'Por Mes',
+      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      callToAction: {
+        text: 'Inscripciones',
+        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+      },
+      hasRibbon: true,
+    //   ribbonTitle: 'Popular',
+    },
+
+    {
+      title: 'Febrero',
+      value: 218000,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1074,9 +1101,10 @@ export const pricingData: PricingProps = {
       },
       hasRibbon: true,
     },
+
     {
-      title: '02/01 al 27/02',
-      value: 170000,
+      title: 'Febrero',
+      value: 193000,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1086,6 +1114,19 @@ export const pricingData: PricingProps = {
       },
       hasRibbon: true,
     },
+
+    // {
+    //   title: '02/01 al 27/02',
+    //   value: 170000,
+    //   // value: 49500,
+    //   period: 'Por Mes',
+    //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   callToAction: {
+    //     text: 'Inscripciones',
+    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //   },
+    //   hasRibbon: true,
+    // },
     // {
     //   title: 'Por Mes',
     //   // value: 43000,
@@ -1101,7 +1142,7 @@ export const pricingData: PricingProps = {
 
 
     // {
-    //   title: 'Febrero',
+    //   title: 'Enero',
     //   // value: 56500,
     //   value: "Consultar",
     //   period: 'por mes',
@@ -1205,18 +1246,18 @@ export const comparisonData: ComparisonProps = {
         },
         {
           // title: '$58500',
-          title: "$215000",
+          title: "$219000",
         },
         {
           // title: "$49500",
-          title: "$19000",
+          title: "$19400",
         },
         {
           // title: "$49500",
-          title: "$195000",
+          title: "$210000",
         },
         {
-          title: "$170000",
+          title: "$185000",
         },
 
 
@@ -1247,18 +1288,18 @@ export const comparisonData: ComparisonProps = {
           },
           {
             // title: '$58500',
-            title: "$215000",
+            title: "$225000",
           },
           {
             // title: "$49500",
-            title: "$19000",
+            title: "$200000",
           },
           {
             // title: "$49500",
-            title: "$195000",
+            title: "$218000",
           },
           {
-            title: "$170000",
+            title: "$193000",
           },
 
         {

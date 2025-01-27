@@ -12,7 +12,11 @@ const Team = () => {
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         {header && <HeaderWidget header={header} titleClassname="text-2xl sm:text-3xl" />}
         <div className="flex items-stretch justify-center">
-          <div className="grid grid-cols-1 gap-4 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+            {/* Equipo de 4 profesores */}
+          {/* <div className="grid grid-cols-1 gap-4 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4"> */}
+            {/*  */}
+            {/* Equipo de 2 profesores */}
+          <div className="grid grid-cols-1 gap-4 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
             {teams.map(({ name, occupation, image, items, cel }, index) => (
               <div key={`item-team-${index}`} className="p-2">
                 <Image

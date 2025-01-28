@@ -51,10 +51,10 @@ import {
 import test1 from '~/assets/images/testimonial1.jpg';
 import test2 from '~/assets/images/testimonial2.jpg';
 import test3 from '~/assets/images/testimonial3.jpg';
-import ricardo from '~/assets/images/Ricardo.png';
-import evelyn from '~/assets/images/Evelyn.png';
-import profe from '~/assets/images/profe.png';
-import pablo from '~/assets/images/pablo.png';
+import ricardo from '~/assets/images/Profes-remera.jpeg';
+import evelyn from '~/assets/images/Evelyn.jpeg';
+import profe from '~/assets/images/profe.jpeg';
+import pablo from '~/assets/images/pablo.jpeg';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpeg';
 import heroImg from '~/assets/images/hero.jpg';
@@ -827,9 +827,9 @@ export const teamData: TeamProps = {
   },
   teams: [
     {
-      name: 'Pablo Mascarenhas',
+      name: '',
       cel: "+54 9 2235374739",
-      occupation: 'Director',
+      occupation: 'Director y Coordinador',
       image: {
         src: pablo,
         alt: 'Pablo Mascarenhas',
@@ -854,9 +854,9 @@ export const teamData: TeamProps = {
       // ],
     },
     {
-      name: 'Ricardo Perez',
+      name: '',
       cel: "+54 9 2235942908",
-      occupation: 'Coordinador',
+      occupation: 'Profes',
       image: {
         src: ricardo,
         alt: 'Ricardo Perez',
@@ -879,14 +879,14 @@ export const teamData: TeamProps = {
       //   },
       // ],
     },
-    // {
-    //   name: 'Pablo Facundo Meléndez',
-    //   cel: "",
-    //   occupation: 'Profesor',
-    //   image: {
-    //     src: profe,
-    //     alt: 'Pablo Facundo Meléndez',
-    //   },
+    {
+      name: '',
+      cel: "",
+      occupation: 'Profes',
+      image: {
+        src: profe,
+        alt: 'Pablo Facundo Meléndez',
+      },
     //   // items: [
     //   //   // {
     //   //   //   title: 'Know more on Twitter',
@@ -904,15 +904,15 @@ export const teamData: TeamProps = {
     //   //     href: '#',
     //   //   },
     //   // ],
-    // },
-    // {
-    //   name: 'Evelyn Racedo',
-    //   cel: "",
-    //   occupation: 'Profesora',
-    //   image: {
-    //     src: evelyn,
-    //     alt: 'Evelyn Racedo',
-    //   },
+    },
+    {
+      name: '',
+      cel: "",
+      occupation: 'Profes',
+      image: {
+        src: evelyn,
+        alt: 'Evelyn Racedo',
+      },
     //   // items: [
     //   //   // {
     //   //   //   title: 'Know more on Twitter',
@@ -930,7 +930,7 @@ export const teamData: TeamProps = {
     //   //     href: '#',
     //   //   },
     //   // ],
-    // },
+    },
   ],
 };
 

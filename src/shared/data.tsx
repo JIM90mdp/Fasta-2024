@@ -268,7 +268,7 @@ export const faqsData: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
 };
@@ -308,7 +308,7 @@ export const faqsData2: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
 };
@@ -348,7 +348,7 @@ export const faqs3Data: FAQsProps = {
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
     },
   ],
   callToAction: {
@@ -401,7 +401,7 @@ export const faqs4Data: FAQsProps = {
           },
         {
           title: '¿Cuándo es la inscripción y cómo funciona?',
-          description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+          description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
         },
       ],
     },
@@ -425,7 +425,7 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: ' ¿Cómo funciona la inscripción a la colonia?',
-          description: `La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $14000 a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
+          description: `La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
         },
         {
           title: ' ¿Cómo se dividen los grupos de niños?',
@@ -994,7 +994,7 @@ export const pricingData: PricingProps = {
   prices: [
     {
       title: 'Matricula',
-      value: 14000,
+      value: 0,
       period: 'Pago unico',
       texts: [
         'Obligatorio para inscribirse',
@@ -1024,7 +1024,7 @@ export const pricingData: PricingProps = {
     },
     {
       title: 'Comedor',
-      value: 5500,
+      value: 0,
       period: 'Precio por día',
       texts: [
         'Menu variado y saludable',
@@ -1039,7 +1039,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Enero',
       // value: 58500,
-      value: 219000,
+      value: 0,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1052,7 +1052,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Enero',
       // value: 58500,
-      value: 194000,
+      value: 0,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1065,7 +1065,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Febrero',
       // value: 58500,
-      value: 225000,
+      value: 0,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1078,7 +1078,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Febrero',
       // value: 58500,
-      value: 200000,
+      value: 0,
       period: 'Por Mes',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
@@ -1091,7 +1091,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Febrero',
-      value: 205000,
+      value: 0,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1104,7 +1104,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Febrero',
-      value: 180000,
+      value: 0,
       // value: 49500,
       period: 'Por Mes',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
@@ -1239,30 +1239,30 @@ export const comparisonData: ComparisonProps = {
       title: 'Enero',
       items: [
         {
-          title: "$14000",
+          title: "$-",
         },
         {
           title: true,
         },
         {
           // title: '$58500',
-          title: "$219000",
+          title: "$-",
         },
         {
           // title: "$49500",
-          title: "$19400",
+          title: "$$-",
         },
         {
-          // title: "$49500",
-          title: "$210000",
+          // title: "$-",
+          title: "$-",
         },
         {
-          title: "$185000",
+          title: "$-",
         },
 
 
         {
-          title: "$5500",
+          title: "$-",
         },
         {
           title: true,
@@ -1281,29 +1281,29 @@ export const comparisonData: ComparisonProps = {
       title: 'Febrero',
       items: [
         {
-            title: "$14000",
+            title: "$-",
           },
           {
             title: true,
           },
           {
-            // title: '$58500',
-            title: "$225000",
+            // title: '$-',
+            title: "$-",
           },
           {
-            // title: "$49500",
-            title: "$200000",
+            // title: "$-",
+            title: "$-",
           },
           {
-            // title: "$49500",
-            title: "$205000",
+            // title: "$-",
+            title: "$-",
           },
           {
-            title: "$180000",
+            title: "$-",
           },
 
         {
-          title: "$5500",
+          title: "$-",
         },
         {
           title: true,
@@ -1327,7 +1327,7 @@ export const comparisonData: ComparisonProps = {
     //       title: 'Unlimited',
     //     },
     //     {
-    //       title: '$199',
+    //       title: '$-',
     //     },
     //     {
     //       title: true,

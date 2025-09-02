@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-
+import "@fontsource/inter/400.css"
+import "@fontsource/inter/700.css"
 import { SITE } from '~/config.js';
 import Script from 'next/script'
 import Providers from '~/components/atoms/Providers';

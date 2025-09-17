@@ -264,7 +264,7 @@ export const faqsData: FAQsProps = {
     },
     {
       title: '¿Hay algún requisito?',
-      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+      description: 'Los colonos deben estar en sala de 4 años del año lectivo que transcrurre a partir de Enero.',
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
@@ -304,7 +304,7 @@ export const faqsData2: FAQsProps = {
     },
     {
       title: '¿Hay algún requisito?',
-      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+      description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
@@ -344,7 +344,7 @@ export const faqs3Data: FAQsProps = {
     },
     {
       title: '¿Hay algún requisito?',
-      description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
+      description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
     },
     {
       title: '¿Cuándo es la inscripción y cómo funciona?',
@@ -396,9 +396,9 @@ export const faqs4Data: FAQsProps = {
           description: 'Las actividades continúan según lo planeado, incluso en días de lluvia. Las actividades se mantienen sin alteraciones debido al clima.',
         },
         {
-            title: '¿Hay algún requisito?',
-            description: 'Si, el único requisito de la coloña es que los colonos no utilicen pañales mientras se encuentran en el establecimiento.',
-          },
+          title: '¿Hay algún requisito?',
+          description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
+        },
         {
           title: '¿Cuándo es la inscripción y cómo funciona?',
           description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
@@ -513,7 +513,7 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        11º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
+        12º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
       </>
     ),
     subtitle:
@@ -554,7 +554,7 @@ export const featuresData: FeaturesProps = {
     {
       title: 'Grupos por edades',
       description:
-        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.', 
+        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.',
       icon: IconMoodKid,
       link: {
         label: 'Mas información',
@@ -615,6 +615,14 @@ export const featuresData2: FeaturesProps = {
       //   href: '/',
       // },
     },
+    {
+      title: 'Whatsapp Secretaría',
+      description: 'Secretaría: +54 9 2236 32-9755',
+      icon: IconHeadset,
+      link: {
+        href: 'https://wa.me/5492236329755',
+      },
+    },
   ],
 };
 
@@ -646,7 +654,7 @@ export const featuresData3: FeaturesProps = {
     {
       title: 'Grupos por edades',
       description:
-        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.', 
+        'Los grupos son seleccionados según la maduración y edad cronológica, de tal forma que se garantice la formación, la diversión y seguridad de los colonos. Único requisito: No usar pañales.',
       icon: IconListCheck,
     },
     {
@@ -887,23 +895,23 @@ export const teamData: TeamProps = {
         src: profe,
         alt: 'Pablo Facundo Meléndez',
       },
-    //   // items: [
-    //   //   // {
-    //   //   //   title: 'Know more on Twitter',
-    //   //   //   icon: IconBrandWhatsapp,
-    //   //   //   href: '#',
-    //   //   // },
-    //   //   {
-    //   //     title: 'Know more on Linkedin',
-    //   //     icon: IconBrandInstagram,
-    //   //     href: '#',
-    //   //   },
-    //   //   {
-    //   //     title: 'Contact by email',
-    //   //     icon: IconMail,
-    //   //     href: '#',
-    //   //   },
-    //   // ],
+      //   // items: [
+      //   //   // {
+      //   //   //   title: 'Know more on Twitter',
+      //   //   //   icon: IconBrandWhatsapp,
+      //   //   //   href: '#',
+      //   //   // },
+      //   //   {
+      //   //     title: 'Know more on Linkedin',
+      //   //     icon: IconBrandInstagram,
+      //   //     href: '#',
+      //   //   },
+      //   //   {
+      //   //     title: 'Contact by email',
+      //   //     icon: IconMail,
+      //   //     href: '#',
+      //   //   },
+      //   // ],
     },
     {
       name: '',
@@ -913,23 +921,23 @@ export const teamData: TeamProps = {
         src: evelyn,
         alt: 'Evelyn Racedo',
       },
-    //   // items: [
-    //   //   // {
-    //   //   //   title: 'Know more on Twitter',
-    //   //   //   icon: IconBrandWhatsapp,
-    //   //   //   href: '#',
-    //   //   // },
-    //   //   {
-    //   //     title: 'Know more on Linkedin',
-    //   //     icon: IconBrandInstagram,
-    //   //     href: '#',
-    //   //   },
-    //   //   {
-    //   //     title: 'Contact by email',
-    //   //     icon: IconMail,
-    //   //     href: '#',
-    //   //   },
-    //   // ],
+      //   // items: [
+      //   //   // {
+      //   //   //   title: 'Know more on Twitter',
+      //   //   //   icon: IconBrandWhatsapp,
+      //   //   //   href: '#',
+      //   //   // },
+      //   //   {
+      //   //     title: 'Know more on Linkedin',
+      //   //     icon: IconBrandInstagram,
+      //   //     href: '#',
+      //   //   },
+      //   //   {
+      //   //     title: 'Contact by email',
+      //   //     icon: IconMail,
+      //   //     href: '#',
+      //   //   },
+      //   // ],
     },
   ],
 };
@@ -1047,7 +1055,7 @@ export const pricingData: PricingProps = {
         href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
-    //   ribbonTitle: 'Popular',
+      //   ribbonTitle: 'Popular',
     },
     {
       title: 'Enero',
@@ -1060,7 +1068,7 @@ export const pricingData: PricingProps = {
         href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
-    //   ribbonTitle: 'Popular',
+      //   ribbonTitle: 'Popular',
     },
     {
       title: 'Febrero',
@@ -1073,7 +1081,7 @@ export const pricingData: PricingProps = {
         href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
-    //   ribbonTitle: 'Popular',
+      //   ribbonTitle: 'Popular',
     },
     {
       title: 'Febrero',
@@ -1086,7 +1094,7 @@ export const pricingData: PricingProps = {
         href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
       },
       hasRibbon: true,
-    //   ribbonTitle: 'Popular',
+      //   ribbonTitle: 'Popular',
     },
 
     {
@@ -1281,26 +1289,26 @@ export const comparisonData: ComparisonProps = {
       title: 'Febrero',
       items: [
         {
-            title: "$-",
-          },
-          {
-            title: true,
-          },
-          {
-            // title: '$-',
-            title: "$-",
-          },
-          {
-            // title: "$-",
-            title: "$-",
-          },
-          {
-            // title: "$-",
-            title: "$-",
-          },
-          {
-            title: "$-",
-          },
+          title: "$-",
+        },
+        {
+          title: true,
+        },
+        {
+          // title: '$-',
+          title: "$-",
+        },
+        {
+          // title: "$-",
+          title: "$-",
+        },
+        {
+          // title: "$-",
+          title: "$-",
+        },
+        {
+          title: "$-",
+        },
 
         {
           title: "$-",
@@ -1387,7 +1395,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contactanos',
-      description: ['Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908'],
+      description: ['Celular-Secretaría: +54 9 2236 32-9755','Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908' ],
       icon: IconPhoneCall,
     },
     {
@@ -1538,7 +1546,7 @@ export const footerData2: FooterProps = {
     {
       title: 'Teléfonos',
       // texts: ['Fasta: +54 9 223 499 0400', 'Mutual MDA: +107 235 7890'],
-      texts: ['Director: +54 9 2235 37-4739', 'Coordinador: +54 9 2235 94-2908'],
+      texts: ['Celular-Secretaría: +54 9 2236 32-9755','Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908' ],
     },
     {
       title: 'Email',

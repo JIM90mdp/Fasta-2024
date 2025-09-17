@@ -9,6 +9,7 @@ import Footer2 from '~/components/widgets/Footer2';
 
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
+import WhatsAppButton from '~/components/WhatsAppButton';
 
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -46,7 +47,9 @@ export default function RootLayout({ children }: LayoutProps) {
         <Providers>
           <Header />
           <main>{children}</main>
+          <WhatsAppButton/>
           <Footer2 />
+
         </Providers>
       </body>
     </html>

@@ -7,6 +7,54 @@ const Pricing = ({ header, prices }: PricingProps) => (
   <section className="bg-primary-50 dark:bg-slate-800" id="pricing">
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       {header && <HeaderWidget header={header} titleClassname="text-2xl sm:text-3xl" />}
+
+      <div className="mx-auto mb-10 max-w-3xl">
+        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+          <h3 className="mb-3 text-lg font-semibold text-slate-800 dark:text-slate-100">
+            Cómo inscribirse
+          </h3>
+          <ol className="list-decimal space-y-2 pl-5 text-slate-700 dark:text-slate-300">
+            <li>
+              Completá la inscripción en el enlace:{' '}
+              <a
+                href="https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary-700 underline hover:opacity-90 dark:text-primary-400"
+              >
+                Formulario de Inscripción 2025
+              </a>
+            </li>
+            <li>
+              Pagá la matrícula. Alias:{' '}
+              <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+                mutual.mda.mdp
+              </code>
+            </li>
+            <li>
+              📩 Enviá el comprobante al director de la colonia:{' '}
+              <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+                <a
+                  href="https://wa.me/542236329755"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium underline hover:opacity-90"
+                >
+                  Whatsapp 2236329755
+                </a>
+              </code>
+            </li>
+          </ol>
+
+          <div className="mt-4 space-y-1 text-slate-700 dark:text-slate-300">
+            <p>
+
+
+            </p>
+            <p>✨ ¡Con estos tres pasos tu lugar queda asegurado!</p>
+          </div>
+        </div>
+      </div>
       <div className="flex items-stretch justify-center">
         <div className="grid grid-cols-3 gap-3 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {prices.map(({ title, value, period, texts, callToAction, hasRibbon, ribbonTitle }, index) => (

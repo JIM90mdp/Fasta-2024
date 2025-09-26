@@ -111,7 +111,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Inscripciones',
-      href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+      href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       targetBlank: true,
       btnType: 'secondary',
     },
@@ -139,15 +139,16 @@ export const heroData: HeroProps = {
       <div>
         <span className="inline-block"> Mar del Plata</span>
       </div>
+
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold ">
-          Colonia de verano
+
         </span>
-        <em className="md:block"> ¡11 años de experiencia brindando diversión garantizada!</em>
+        <em className="md:block"> ¡12 años de experiencia brindando diversión garantizada!</em>
       </span>
       <em className="block">
         !Sé parte de nuestra familia!
@@ -155,6 +156,52 @@ export const heroData: HeroProps = {
       <span>
         Realiza la inscripción y asegura la vacante con el pago de la matrícula.
       </span>
+      <div>
+
+        <div className="mt-1 mx-auto mb-1 max-w-3xl">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+            <h3 className="mb-3 text-lg font-semibold text-slate-800 dark:text-slate-100">
+              Cómo inscribirse
+            </h3>
+            <ol className="list-decimal space-y-2 pl-5 text-slate-700 dark:text-slate-300">
+              <li>
+                Completá la inscripción en el enlace:{' '}
+                <a
+                  href="https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary-700 underline hover:opacity-90 dark:text-primary-400"
+                >
+                  Formulario de Inscripción 2025
+                </a>
+              </li>
+              <li>
+                Pagá la matrícula. Alias:{' '}
+                <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+                  mutual.mda.mdp
+                </code>
+              </li>
+              <li>
+                📩 Enviá el comprobante al director de la colonia:{' '}
+                <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+                  <a
+                    href="https://wa.me/542236329755"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium underline hover:opacity-90"
+                  >
+                    Whatsapp 2236329755
+                  </a>
+                </code>
+              </li>
+            </ol>
+
+            <div className="mt-4 space-y-1 text-slate-700 dark:text-slate-300">
+              <p>✨ ¡Con estos tres pasos tu lugar queda asegurado!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   ),
   // callToAction: {
@@ -166,7 +213,7 @@ export const heroData: HeroProps = {
   // },
   // callToAction2: {
   //   text: 'Inscripciones - Matrícula',
-  //   href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+  //   href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
   // },
   image: {
     src: cameraBackImg,
@@ -198,7 +245,7 @@ export const hero2Data: HeroProps = {
     </>,
   // callToAction: {
   //   text: 'Inscripciones',
-  //   href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+  //   href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
   //   targetBlank: true,
   //   btnType: 'primary',
   // },
@@ -267,8 +314,8 @@ export const faqsData: FAQsProps = {
       description: 'Los colonos deben estar en sala de 4 años del año lectivo que transcrurre a partir de Enero.',
     },
     {
-      title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      title: '¿Cómo es la inscripción?',
+      description: '👉 Completá la inscripción. 👉 Pagá la matrícula. 📩 Enviá el comprobante al director de la colonia',
     },
   ],
 };
@@ -307,8 +354,8 @@ export const faqsData2: FAQsProps = {
       description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
     },
     {
-      title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      title: '¿Cómo es la inscripción?',
+      description: '👉 Completá la inscripción. 👉 Pagá la matrícula. 📩 Enviá el comprobante al director de la colonia',
     },
   ],
 };
@@ -347,13 +394,13 @@ export const faqs3Data: FAQsProps = {
       description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
     },
     {
-      title: '¿Cuándo es la inscripción y cómo funciona?',
-      description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+      title: '¿Cómo es la inscripción?',
+      description: '👉 Completá la inscripción. 👉 Pagá la matrícula. 📩 Enviá el comprobante al director de la colonia',
     },
   ],
   callToAction: {
     text: 'Contactanos',
-    href: '/contacto',
+    href: 'https://wa.me/5492236329755',
     btnText: 'uppercase',
     btnType: 'primary',
   },
@@ -400,8 +447,8 @@ export const faqs4Data: FAQsProps = {
           description: 'Los colonos deben estar en sala de 4 años del siguiente año lectivo que transcrurre a partir de Enero.',
         },
         {
-          title: '¿Cuándo es la inscripción y cómo funciona?',
-          description: 'La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que completen el formulario de inscripción.',
+          title: '¿Cómo es la inscripción?',
+          description: '👉 Completá la inscripción. 👉 Pagá la matrícula. 📩 Enviá el comprobante al director de la colonia',
         },
       ],
     },
@@ -425,7 +472,7 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: ' ¿Cómo funciona la inscripción a la colonia?',
-          description: `La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $- a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
+          description: `La inscripción comienza el miércoles 2 de octubre y se hace efectiva luego de completar el formulario de inscripción y realizar el pago de la matricula de inscripción de $ a la mutual MDA. El director se pondrá en contacto con todas las familias una vez que hayan completado esos dos pasos`,
         },
         {
           title: ' ¿Cómo se dividen los grupos de niños?',
@@ -486,7 +533,7 @@ export const callToActionData: CallToActionProps = {
     {
       title: 'Inscripciones',
       description: 'Si leíste la página, y ya has evacuado todas tus dudas, realizá la inscripción y pagá tu matrícula',
-      href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+      href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     },
     // {
     //   title: 'Mas información',
@@ -1052,7 +1099,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
       //   ribbonTitle: 'Popular',
@@ -1065,7 +1112,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
       //   ribbonTitle: 'Popular',
@@ -1078,7 +1125,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
       //   ribbonTitle: 'Popular',
@@ -1091,7 +1138,7 @@ export const pricingData: PricingProps = {
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
       //   ribbonTitle: 'Popular',
@@ -1105,7 +1152,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
     },
@@ -1118,7 +1165,7 @@ export const pricingData: PricingProps = {
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
     },
@@ -1131,7 +1178,7 @@ export const pricingData: PricingProps = {
     //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     // },
@@ -1143,7 +1190,7 @@ export const pricingData: PricingProps = {
     //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     // },
@@ -1157,7 +1204,7 @@ export const pricingData: PricingProps = {
     //   texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     //   ribbonTitle: 'Popular',
@@ -1170,7 +1217,7 @@ export const pricingData: PricingProps = {
     //   texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     //   ribbonTitle: 'Popular',
@@ -1183,7 +1230,7 @@ export const pricingData: PricingProps = {
     //   texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     // },
@@ -1195,7 +1242,7 @@ export const pricingData: PricingProps = {
     //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído'],
     //   callToAction: {
     //     text: 'Inscripciones',
-    //     href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
     //   },
     //   hasRibbon: true,
     // },
@@ -1247,30 +1294,30 @@ export const comparisonData: ComparisonProps = {
       title: 'Enero',
       items: [
         {
-          title: "$-",
+          title: "$",
         },
         {
           title: true,
         },
         {
           // title: '$58500',
-          title: "$-",
+          title: "$",
         },
         {
           // title: "$49500",
-          title: "$$-",
+          title: "$",
         },
         {
-          // title: "$-",
-          title: "$-",
+          // title: "$",
+          title: "$",
         },
         {
-          title: "$-",
+          title: "$",
         },
 
 
         {
-          title: "$-",
+          title: "$",
         },
         {
           title: true,
@@ -1281,7 +1328,7 @@ export const comparisonData: ComparisonProps = {
       ],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
         btnType: 'primary',
       },
     },
@@ -1289,29 +1336,29 @@ export const comparisonData: ComparisonProps = {
       title: 'Febrero',
       items: [
         {
-          title: "$-",
+          title: "$",
         },
         {
           title: true,
         },
         {
-          // title: '$-',
-          title: "$-",
+          // title: '$',
+          title: "$",
         },
         {
-          // title: "$-",
-          title: "$-",
+          // title: "$",
+          title: "$",
         },
         {
-          // title: "$-",
-          title: "$-",
+          // title: "$",
+          title: "$",
         },
         {
-          title: "$-",
+          title: "$",
         },
 
         {
-          title: "$-",
+          title: "$",
         },
         {
           title: true,
@@ -1321,7 +1368,7 @@ export const comparisonData: ComparisonProps = {
       ],
       callToAction: {
         text: 'Inscripciones',
-        href: 'https://forms.gle/54HCNzaCZ7XHcWKe7',
+        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
         btnType: 'primary',
       },
     },
@@ -1335,7 +1382,7 @@ export const comparisonData: ComparisonProps = {
     //       title: 'Unlimited',
     //     },
     //     {
-    //       title: '$-',
+    //       title: '$',
     //     },
     //     {
     //       title: true,
@@ -1395,7 +1442,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contactanos',
-      description: ['Celular-Secretaría: +54 9 2236 32-9755','Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908' ],
+      description: ['Celular-Secretaría: +54 9 2236 32-9755', 'Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908'],
       icon: IconPhoneCall,
     },
     {
@@ -1546,7 +1593,7 @@ export const footerData2: FooterProps = {
     {
       title: 'Teléfonos',
       // texts: ['Fasta: +54 9 223 499 0400', 'Mutual MDA: +107 235 7890'],
-      texts: ['Celular-Secretaría: +54 9 2236 32-9755','Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908' ],
+      texts: ['Celular-Secretaría: +54 9 2236 32-9755', 'Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908'],
     },
     {
       title: 'Email',

@@ -26,7 +26,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
               </a>
             </li>
             <li>
-              Pagá la matrícula. Alias:{' '}
+              Pagá $19.000 de la matrícula. Alias:{' '}
               <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
                 mutual.mda.mdp
               </code>

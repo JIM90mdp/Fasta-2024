@@ -1092,11 +1092,11 @@ export const pricingData: PricingProps = {
       hasRibbon: true,
     },
     {
-      title: 'Enero',
+      title: 'Por Mes',
       // value: 58500,
-      value: 0,
-      period: 'Por Mes',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      value: 340000,
+      period: 'Precio mensual - Enero y Febrero',
+      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', 'Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1105,11 +1105,11 @@ export const pricingData: PricingProps = {
       //   ribbonTitle: 'Popular',
     },
     {
-      title: 'Enero',
+      title: 'Por Mes',
       // value: 58500,
-      value: 0,
-      period: 'Por Mes',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      value: 290000,
+      period: 'Precio mensual - Enero y Febrero',
+      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1117,52 +1117,52 @@ export const pricingData: PricingProps = {
       hasRibbon: true,
       //   ribbonTitle: 'Popular',
     },
+    // {
+    //   title: 'Febrero',
+    //   // value: 58500,
+    //   value: 340000,
+    //   period: 'Por Mes',
+    //   texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   callToAction: {
+    //     text: 'Inscripciones',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
+    //   },
+    //   hasRibbon: true,
+    //   //   ribbonTitle: 'Popular',
+    // },
+    // {
+    //   title: 'Febrero',
+    //   // value: 58500,
+    //   value: 290000,
+    //   period: 'Por Mes',
+    //   texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   callToAction: {
+    //     text: 'Inscripciones',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
+    //   },
+    //   hasRibbon: true,
+    //   //   ribbonTitle: 'Popular',
+    // },
+
     {
-      title: 'Febrero',
-      // value: 58500,
-      value: 0,
-      period: 'Por Mes',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      title: 'Por Mes',
+      value: 300000,
+      // value: 49500,
+      period: 'Precio mensual - Enero y Febrero',
+      texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
       },
       hasRibbon: true,
-      //   ribbonTitle: 'Popular',
-    },
-    {
-      title: 'Febrero',
-      // value: 58500,
-      value: 0,
-      period: 'Por Mes',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
-      callToAction: {
-        text: 'Inscripciones',
-        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
-      },
-      hasRibbon: true,
-      //   ribbonTitle: 'Popular',
     },
 
     {
-      title: 'Febrero',
-      value: 0,
+      title: 'Por Mes',
+      value: 265000,
       // value: 49500,
-      period: 'Por Mes',
-      texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
-      callToAction: {
-        text: 'Inscripciones',
-        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
-      },
-      hasRibbon: true,
-    },
-
-    {
-      title: 'Febrero',
-      value: 0,
-      // value: 49500,
-      period: 'Por Mes',
-      texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+      period: 'Precio mensual - Enero y Febrero',
+      texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1294,25 +1294,25 @@ export const comparisonData: ComparisonProps = {
       title: 'Enero',
       items: [
         {
-          title: "$",
+          title: "$19000",
         },
         {
           title: true,
         },
         {
           // title: '$58500',
-          title: "$",
+          title: "$340000",
         },
         {
           // title: "$49500",
-          title: "$",
+          title: "$290000",
         },
         {
           // title: "$",
-          title: "$",
+          title: "$300000",
         },
         {
-          title: "$",
+          title: "$265000",
         },
 
 
@@ -1332,46 +1332,46 @@ export const comparisonData: ComparisonProps = {
         btnType: 'primary',
       },
     },
-    {
-      title: 'Febrero',
-      items: [
-        {
-          title: "$",
-        },
-        {
-          title: true,
-        },
-        {
-          // title: '$',
-          title: "$",
-        },
-        {
-          // title: "$",
-          title: "$",
-        },
-        {
-          // title: "$",
-          title: "$",
-        },
-        {
-          title: "$",
-        },
+    // {
+    //   title: 'Febrero',
+    //   items: [
+    //     {
+    //       title: "$19000",
+    //     },
+    //     {
+    //       title: true,
+    //     },
+    //     {
+    //       // title: '$',
+    //       title: "$340000",
+    //     },
+    //     {
+    //       // title: "$",
+    //       title: "$290000",
+    //     },
+    //     {
+    //       // title: "$",
+    //       title: "$",
+    //     },
+    //     {
+    //       title: "$",
+    //     },
 
-        {
-          title: "$",
-        },
-        {
-          title: true,
-        },
+    //     {
+    //       title: "$",
+    //     },
+    //     {
+    //       title: true,
+    //     },
 
 
-      ],
-      callToAction: {
-        text: 'Inscripciones',
-        href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
-        btnType: 'primary',
-      },
-    },
+    //   ],
+    //   callToAction: {
+    //     text: 'Inscripciones',
+    //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
+    //     btnType: 'primary',
+    //   },
+    // },
     // {
     //   title: 'premium',
     //   items: [

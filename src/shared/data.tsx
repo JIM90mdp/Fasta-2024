@@ -1096,7 +1096,7 @@ export const pricingData: PricingProps = {
       // value: 58500,
       value: 340000,
       period: 'Precio mensual - Enero y Febrero',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', 'Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
+      texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', 'Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1109,7 +1109,7 @@ export const pricingData: PricingProps = {
       // value: 58500,
       value: 290000,
       period: 'Precio mensual - Enero y Febrero',
-      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
+      texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1122,7 +1122,7 @@ export const pricingData: PricingProps = {
     //   // value: 58500,
     //   value: 340000,
     //   period: 'Por Mes',
-    //   texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', ],
     //   callToAction: {
     //     text: 'Inscripciones',
     //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1135,7 +1135,7 @@ export const pricingData: PricingProps = {
     //   // value: 58500,
     //   value: 290000,
     //   period: 'Por Mes',
-    //   texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', ],
     //   callToAction: {
     //     text: 'Inscripciones',
     //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1149,7 +1149,7 @@ export const pricingData: PricingProps = {
       value: 300000,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
-      texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
+      texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1162,7 +1162,7 @@ export const pricingData: PricingProps = {
       value: 265000,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
-      texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  '3 Cuotas (Nov - Dic - Ene)'],
+      texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
         text: 'Inscripciones',
         href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1175,7 +1175,7 @@ export const pricingData: PricingProps = {
     //   value: 170000,
     //   // value: 49500,
     //   period: 'Por Mes',
-    //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', '3 Cuotas (Nov - Dic - Ene)'],
+    //   texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído', ],
     //   callToAction: {
     //     text: 'Inscripciones',
     //     href: 'https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1',
@@ -1255,7 +1255,7 @@ export const comparisonData: ComparisonProps = {
   header: {
     title: "Compará los planes",
     subtitle:
-      'Elegí el plan que mejor se adapte a tu situación familiar',
+      'Elegí el plan que mejor se adapte a tu situación familiar. *Los precios podrían modificarse según el contexto macroeconómico del país.*',
     // highlight: 'Comparison',
   },
   columns: [
@@ -1442,7 +1442,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contactanos',
-      description: ['Celular-Secretaría: +54 9 2236 32-9755', 'Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908'],
+      description: ['Celular de la Colonia (Secretaria): +54 9 2236 32-9755', 'Celular Coordinador: +54 9 2235 94-2908'],
       icon: IconPhoneCall,
     },
     {
@@ -1593,7 +1593,7 @@ export const footerData2: FooterProps = {
     {
       title: 'Teléfonos',
       // texts: ['Fasta: +54 9 223 499 0400', 'Mutual MDA: +107 235 7890'],
-      texts: ['Celular-Secretaría: +54 9 2236 32-9755', 'Celular-Director: +54 9 2235 37-4739', 'Celular-Coordinador: +54 9 2235 94-2908'],
+      texts: ['Celular de la Colonia (Secretaria): +54 9 2236 32-9755', 'Celular Coordinador: +54 9 2235 94-2908'],
     },
     {
       title: 'Email',

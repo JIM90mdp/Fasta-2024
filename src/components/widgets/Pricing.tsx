@@ -8,7 +8,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       {header && <HeaderWidget header={header} titleClassname="text-2xl sm:text-3xl" />}
 
-      <div className="mx-auto mb-10 max-w-3xl">
+      {/* <div className="mx-auto mb-10 max-w-3xl">
         <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
           <h3 className="mb-3 text-lg font-semibold text-slate-800 dark:text-slate-100">
             Cómo inscribirse
@@ -54,7 +54,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
             <p>✨ ¡Con estos tres pasos tu lugar queda asegurado!</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex items-stretch justify-center">
         <div className="grid grid-cols-3 gap-3 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {prices.map(({ title, value, period, texts, callToAction, hasRibbon, ribbonTitle }, index) => (

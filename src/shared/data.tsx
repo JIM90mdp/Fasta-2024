@@ -158,7 +158,7 @@ export const heroData: HeroProps = {
       </span>
       <div>
 
-        <div className="mt-1 mx-auto mb-1 max-w-3xl">
+        {/* <div className="mt-1 mx-auto mb-1 max-w-3xl">
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
             <h3 className="mb-3 text-lg font-semibold text-slate-800 dark:text-slate-100">
               Cómo inscribirse
@@ -200,7 +200,7 @@ export const heroData: HeroProps = {
               <p>✨ ¡Con estos tres pasos tu lugar queda asegurado!</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   ),

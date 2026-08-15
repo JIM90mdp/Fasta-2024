@@ -1049,7 +1049,7 @@ export const pricingData: PricingProps = {
   prices: [
     {
       title: 'Matricula',
-      value: 19000,
+      value: 0,
       period: 'Pago unico',
       texts: [
         'Obligatorio para inscribirse',
@@ -1094,7 +1094,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Por Mes',
       // value: 58500,
-      value: 340000,
+      value: 0,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', 'Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
@@ -1107,7 +1107,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Por Mes',
       // value: 58500,
-      value: 290000,
+      value: 0,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
@@ -1146,7 +1146,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Por Mes',
-      value: 300000,
+      value: 0,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
@@ -1159,7 +1159,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Por Mes',
-      value: 265000,
+      value: 0,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
@@ -1294,25 +1294,25 @@ export const comparisonData: ComparisonProps = {
       title: 'Enero',
       items: [
         {
-          title: "$19000",
+            title: "$0",
         },
         {
           title: true,
         },
         {
           // title: '$58500',
-          title: "$340000",
+            title: "$0",
         },
         {
           // title: "$49500",
-          title: "$290000",
+            title: "$0",
         },
         {
           // title: "$",
-          title: "$300000",
+            title: "$0",
         },
         {
-          title: "$265000",
+            title: "$0",
         },
 
 

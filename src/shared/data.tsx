@@ -148,7 +148,7 @@ export const heroData: HeroProps = {
         <span className="font-semibold ">
 
         </span>
-        <em className="md:block"> ¡12 años de experiencia brindando diversión garantizada!</em>
+        <em className="md:block"> ¡13 años de experiencia brindando diversión garantizada!</em>
       </span>
       <em className="block">
         !Sé parte de nuestra familia!
@@ -158,7 +158,7 @@ export const heroData: HeroProps = {
       </span>
       <div>
 
-        {/* <div className="mt-1 mx-auto mb-1 max-w-3xl">
+        /* <div className="mt-1 mx-auto mb-1 max-w-3xl">
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
             <h3 className="mb-3 text-lg font-semibold text-slate-800 dark:text-slate-100">
               Cómo inscribirse
@@ -167,16 +167,16 @@ export const heroData: HeroProps = {
               <li>
                 Completá la inscripción en el enlace:{' '}
                 <a
-                  href="https://docs.google.com/forms/u/0/d/1J-nT2LNOA4ClRww1SEKaRNqNAa4E0xUgcgMpqva_YFs/edit?usp=sharing_eip_se_dm&ts=68c19fa5&pli=1"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSctNoiUsepPSzr9CSpbPoE2K-aHcWHD17RLM9DQPEEqVGcvgA/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-medium text-primary-700 underline hover:opacity-90 dark:text-primary-400"
                 >
-                  Formulario de Inscripción 2025
+                  Formulario de Inscripción 2026
                 </a>
               </li>
               <li>
-                Pagá $19.000 de la matrícula. Alias:{' '}
+                Pagá $26.000 de la matrícula. Alias:{' '}
                 <code className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
                   mutual.mda.mdp
                 </code>
@@ -200,7 +200,7 @@ export const heroData: HeroProps = {
               <p>✨ ¡Con estos tres pasos tu lugar queda asegurado!</p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   ),
@@ -560,7 +560,7 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        12º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
+        13º Temporada <span className="sm:whitespace-nowrap">Colonia FASTA - MDA</span>
       </>
     ),
     subtitle:
@@ -1049,7 +1049,7 @@ export const pricingData: PricingProps = {
   prices: [
     {
       title: 'Matricula',
-      value: 0,
+      value: 26000,
       period: 'Pago unico',
       texts: [
         'Obligatorio para inscribirse',
@@ -1094,7 +1094,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Por Mes',
       // value: 58500,
-      value: 0,
+      value: 470000,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['De lunes a viernes', 'De 7:30 hs a 15:30 hs', 'Transporte incluído', 'Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
@@ -1107,7 +1107,7 @@ export const pricingData: PricingProps = {
     {
       title: 'Por Mes',
       // value: 58500,
-      value: 0,
+      value: 400000,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['De lunes a viernes', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
       callToAction: {
@@ -1146,7 +1146,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Por Mes',
-      value: 0,
+      value: 420000,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['3 veces por semana', 'De 7:30 hs a 15:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],
@@ -1159,7 +1159,7 @@ export const pricingData: PricingProps = {
 
     {
       title: 'Por Mes',
-      value: 0,
+      value: 370000,
       // value: 49500,
       period: 'Precio mensual - Enero y Febrero',
       texts: ['3 veces por semana', 'De 7:30 hs a 13:30 hs', 'Transporte incluído','Guardia sin cargo de 7.30hs a 8hs y 15.30hs a 16hs',  ],

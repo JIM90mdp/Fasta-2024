@@ -172,7 +172,7 @@ export const heroData: HeroProps = {
                   rel="noopener noreferrer"
                   className="font-medium text-primary-700 underline hover:opacity-90 dark:text-primary-400"
                 >
-                  Formulario de Inscripción 2026
+                  Formulario de Inscripción 2027
                 </a>
               </li>
               <li>

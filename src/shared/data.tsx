@@ -151,7 +151,7 @@ export const heroData: HeroProps = {
         <em className="md:block"> ¡13 años de experiencia brindando diversión garantizada!</em>
       </span>
       <em className="block">
-        !Sé parte de nuestra familia!
+        !Sé parte de nuestra familia! 
       </em>
       <span>
         Realiza la inscripción y asegura la vacante con el pago de la matrícula.
